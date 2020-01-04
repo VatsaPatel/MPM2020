@@ -424,6 +424,27 @@ margin-left: 10%;
   color: #ffffff;
 }
 
+.flexContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 10px 10px;
+}
+
+.leftC {
+  text-align: center;
+}
+
+.rightC {
+
+}
+
+.Tcontent {
+  font-family: Avenir;
+  font-size: 15px;
+  color: #ffffff;
+}
+
 @media (max-width:1200px) {
     .img-holder {
         padding-bottom: 50%;
