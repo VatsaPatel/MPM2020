@@ -264,6 +264,7 @@ header {
 .bmandirContainer {
   display: flex;
     justify-content: flex-end;
+    margin-top: 50px;
 }
 
 .amContainer {
@@ -331,11 +332,16 @@ margin-left: 10%;
 }
 
 .custNav {
-  padding-top: 40px;
+  margin: 42px 32px 0 32px;
+}
+
+.Tabcontainer {
+  padding: 0px;
 }
 
 .custTab {
-  margin-top: 40px;
+  padding-top: 40px;
+  background-color: black !important;
 }
 
 .blackSection {
@@ -361,6 +367,61 @@ margin-left: 10%;
     height: 0;
     padding-bottom: 33%;
     overflow: hidden;
+}
+
+.myNavC {
+}
+
+.myNav {
+  background-color: #f4f4f4 !important;
+  font-family: Circular !important;
+  color: #6a6a6a !important;
+  border: none !important;
+}
+
+.myNavCR {
+  border-radius: 0 22px 22px 0 !important;
+}
+
+.myNavR {
+  border-radius: 0 22px 22px 0 !important;
+}
+
+.myNavCL {
+  border-radius: 22px 0 0 22px !important;
+}
+
+.myNavL {
+  border-radius: 22px 0 0 22px !important;
+}
+
+.navDate {
+  font-family: Gilroy-bold;
+  color: #6a6a6a;
+  font-size: 30px;
+  position: relative;
+  right: -7px;
+}
+
+.navSup {
+  font-family: Circular;
+    font-size: 15px;
+    top: -1em;
+    left: -5px;
+}
+
+.timeTab {
+  font-family: Gilroy-regular;
+  font-size: 27px;
+  color: #f64952;
+
+}
+
+.titleTab {
+  font-family: Circular;
+  font-size: 28.2px;
+  font-weight: 900;
+  color: #ffffff;
 }
 
 @media (max-width:1200px) {
@@ -535,10 +596,13 @@ margin-left: 10%;
 }
 
 .nav-tabs .nav-link.active {
-    background: #FFF;
-    border-top-width: 3px;
-    border-color: #ce75b4 #faf6fb #FFF;
-    color: #633991;
+  background-image: linear-gradient(260deg, #7619f2, #1016ea);
+  box-shadow: 0 0.7rem 3rem -0.9rem #4801ff;
+  color: white !important;
+
+}
+.nav-link.active .navDate{
+  color:#fff;
 }
 
 
