@@ -339,9 +339,15 @@ margin-left: 10%;
   padding: 0px;
 }
 
-.custTab {
-  padding-top: 40px;
-  background-color: black !important;
+.custTabB {
+  padding: 40px 10px 10px 15px;
+  background-color: black ;
+}
+
+.custTabW {
+  padding: 40px 15px 10px 10px;
+  background-color: white;
+  text-align: right;
 }
 
 .blackSection {
@@ -424,6 +430,13 @@ margin-left: 10%;
   color: #ffffff;
 }
 
+.titleTabB {
+  font-family: Circular;
+  font-size: 28.2px;
+  font-weight: 900;
+  color: black;
+}
+
 .flexContainer {
   display: flex;
   justify-content: space-between;
@@ -445,6 +458,28 @@ margin-left: 10%;
   color: #ffffff;
 }
 
+.TcontentB {
+  font-family: Avenir;
+  font-size: 15px;
+  color: #1a1a1a;
+}
+
+.images-container {
+  margin: 5%;
+}
+
+.Frow {
+  display: flex;
+}
+
+.Rimage {
+  margin: 0 5px;
+}
+
+.okay {
+  margin: 0;
+  padding: 0;
+}
 @media (max-width:1200px) {
     .img-holder {
         padding-bottom: 50%;
@@ -581,16 +616,16 @@ margin-left: 10%;
 ----------------------*/
 
 .tab-content {
-    border-bottom-right-radius: 3px;
+    /* border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
     background-color: #FFF;
     box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.04);
-    padding: 3rem;
+    padding: 3rem; */
 }
 
 @media (max-width:992px) {
     .tab-content {
-        padding: 1.5rem;
+        /* padding: 1.5rem; */
     }
 }
 
@@ -620,6 +655,7 @@ margin-left: 10%;
   background-image: linear-gradient(260deg, #7619f2, #1016ea);
   box-shadow: 0 0.7rem 3rem -0.9rem #4801ff;
   color: white !important;
+  border-radius: 10px;
 
 }
 .nav-link.active .navDate{
