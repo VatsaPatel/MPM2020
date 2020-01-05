@@ -505,12 +505,15 @@ margin-left: 10%;
   background-color: #eeeeee;
   margin: 10px;
   width: 95%;
-  padding: 10px;
+  padding: 10px 5px 35px 17px;
+}
+
 }
 
 .SNav {
   color: #303030;
   font-family: Circular;
+  font-size: 20px;
 }
 
 .SDate {
@@ -530,8 +533,9 @@ margin-left: 10%;
 
 .LSC {
   font-family: Circular;
-  font-size: 36px;
+  font-size: 24px;
   color: #1e1e1e;
+  margin-left: 5%;
 }
 
 .LSC1{
@@ -542,13 +546,21 @@ margin-left: 10%;
   font-family: Gilroy-regular;
   font-size: 20px;
   color: #f64952;
-  color: #f01111;
 }
 
 .StitleTab {
   font-family: Circular;
   font-size: 22px;
   color: #303030;
+  position: relative;
+  top: 2px;
+  line-height: 0.3;
+}
+
+.greyTxt {
+  color: #303030;
+  font-family: Circular;
+  font-size: 15px;
 }
 
 
