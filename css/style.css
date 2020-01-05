@@ -480,6 +480,10 @@ margin-left: 10%;
   margin: 0;
   padding: 0;
 }
+
+.resp {
+  width: 100%;
+}
 @media (max-width:1200px) {
     .img-holder {
         padding-bottom: 50%;
@@ -494,6 +498,59 @@ margin-left: 10%;
         padding-bottom: 100%;
     }
 }
+
+
+.schedulebox {
+  border-radius: 24px;
+  background-color: #eeeeee;
+  margin: 10px;
+  width: 95%;
+  padding: 10px;
+}
+
+.SNav {
+  color: #303030;
+  font-family: Circular;
+}
+
+.SDate {
+  font-family: Gilroy-bold;
+  color: #303030;
+  font-size: 30px;
+  position: relative;
+  right: -7px;
+}
+
+.SSup {
+  font-family: Circular;
+    font-size: 15px;
+    top: -1em;
+    left: -5px;
+}
+
+.LSC {
+  font-family: Circular;
+  font-size: 36px;
+  color: #1e1e1e;
+}
+
+.LSC1{
+  color: #ff0c12;
+}
+
+.StimeTab {
+  font-family: Gilroy-regular;
+  font-size: 20px;
+  color: #f64952;
+  color: #f01111;
+}
+
+.StitleTab {
+  font-family: Circular;
+  font-size: 22px;
+  color: #303030;
+}
+
 
 
 /* FEATURES
